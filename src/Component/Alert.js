@@ -2,7 +2,9 @@ import React from 'react'
 
 function Alert(props) {
     return (
-        alert(props.text)
+       <div class="alert alert-warning" role="alert">
+       {props.text}
+      </div>
     );
 }
  

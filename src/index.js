@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 // import ChangeNumber from './state/ChangeNumber';
 // import BackgroundColor from './state/BackgroundColor';
 // import AppHello from './state/AddHello';
-import AddHome from './state/AddHome';
+// import AddHome from './state/AddHome';
+import Alert from './Component/Alert';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 
@@ -19,7 +20,8 @@ root.render(
   // <ChangeNumber />
   // <BackgroundColor/>
   // <AppHello/>
-  <AddHome/>
+  // <AddHome/>
+  <Alert text="Cảnh báo! Tài nguyên bạn vừa truy cập không tồn tại." />
 );
 
 // If you want to start measuring performance in your app, pass a function
