@@ -8,7 +8,8 @@ import reportWebVitals from './reportWebVitals';
 // import AppHello from './state/AddHello';
 // import AddHome from './state/AddHome';
 // import Alert from './Component/Alert';
-import ExpandCollapse from './state/ExpandCollapse';
+// import ExpandCollapse from './state/ExpandCollapse';
+import Calculator from './state/Calculator';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 
@@ -17,7 +18,8 @@ root.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
-  <ExpandCollapse/>
+  // <ExpandCollapse/>
+  <Calculator/>
 
   // <ChangeNumber />
   // <BackgroundColor/>
