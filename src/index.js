@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import ChangeNumber from './state/ChangeNumber';
 // import BackgroundColor from './state/BackgroundColor';
@@ -10,19 +10,19 @@ import reportWebVitals from './reportWebVitals';
 // import Alert from './Component/Alert';
 // import ExpandCollapse from './state/ExpandCollapse';
 // import Calculator from './state/Calculator';
-import AddLogin from './state/AddLogin';
+// import AddLogin from './state/AddLogin';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-  //   <App />
+    <App />
   // </React.StrictMode>
   // <ExpandCollapse/>
   // <Calculator/>
 
-  <AddLogin/>
+  // <AddLogin/>
 
   // <ChangeNumber />
   // <BackgroundColor/>
