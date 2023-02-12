@@ -8,8 +8,8 @@ import './App.css';
 // import Counter from './hook/Counter';
 // import Selector from './hook/Selector';
 // import MyClock from './hook/MyClock';
-import SelectorCar from './hook/SelectorCar';
-
+// import SelectorCar from './hook/SelectorCar';
+import Timer from './hook/Timer';
 function App() {
   
   return (
@@ -27,7 +27,8 @@ function App() {
     // <Counter/>
     // <Selector/>
     // <MyClock/>
-    <SelectorCar/>
+    // <SelectorCar/>
+    <Timer/>
 
   );
 }
