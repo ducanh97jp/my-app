@@ -24,8 +24,9 @@
 // import AddLogin from './state/AddLogin';
 
 // form
-import SignUp from "./form/SignUp"
+// import SignUp from "./form/SignUp"
+import ValidForm from "./form/ValidForm";
 function Link () {
-    return <SignUp/>
+    return <ValidForm/>
 }
 export default Link;
