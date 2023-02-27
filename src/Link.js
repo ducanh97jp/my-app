@@ -25,8 +25,10 @@
 
 // form
 // import SignUp from "./form/SignUp"
-import ValidForm from "./form/ValidForm";
+// import ValidForm from "./form/ValidForm";
+// import LogIn from "./form/LogIn";
+import LogInWithFormik from "./form/LogInWithFormik";
 function Link () {
-    return <ValidForm/>
+    return <LogInWithFormik/>
 }
 export default Link;
